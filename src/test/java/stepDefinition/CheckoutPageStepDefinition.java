@@ -41,6 +41,8 @@ public class CheckoutPageStepDefinition {
 		Assert.assertTrue(checkoutPage.VerifyPromoButton());
 		Assert.assertTrue(checkoutPage.VerifyPlaceOrder());
 		
+		System.out.println("User has ability to enter promo code and place the order");
+		
 	}
 	
 	@Then("^User proceeds to checkout and validate the (.+) items in checkout page$")
